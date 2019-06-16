@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const _ = require("lodash");
 const mongoose = require("mongoose");
-const ips = ["192.168.1.91"];
+const ips = ["108.91.91.35"];
 mongoose.connect('mongodb+srv://admin-jalagam:jalagam@cluster-blog-tg8ls.mongodb.net/blogDB', {useNewUrlParser: true});
 
 const postSchema = new mongoose.Schema({
