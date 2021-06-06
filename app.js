@@ -23,9 +23,9 @@ const postSchema = new mongoose.Schema({
 const Post = mongoose.model("Post",postSchema);
 
 
-const homeStartingContent = "How's it going by the way ?  Since you already know my name and enough about me, I wouldnt waste your time here. I mostly write here anything that I'd like to stand out. Take some time, Feel free to read anything which interests you.";
-const aboutContent = "I am Dheeraj Kumar Jalagam, an aspiring Web developer from Dallas, Texas. I am a Proud Alumni of University Of Southern Mississippi with a Masters title in Computer Science. I ❤️ to code and my code needs ☕️  to compile.  "
-const contactContent = "Please 📧  and I will get back to you asap. Thank You";
+const homeStartingContent = "Howdy Friend, I mostly write stuff I feel should stand out in my life. I know it's not a lot, Yeah I'm not one of those daily blogger.";
+const aboutContent = "I am Dheeraj Kumar Jalagam, Web Dev from Dallas. I am a Proud Alumni of University Of Southern Mississippi with a Masters title in Computer Science. I ❤️ to code and somedays my code needs ☕️ to compile."
+const contactContent = "Please 📧 and I will get back to you asap. Thank You";
 
 const app = express();
 
